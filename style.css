@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;600;900");
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-container,
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 100px;
+}
+
+.header,
+.hero,
+.footer {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header .logo {
+  font-size: 24px;
+}
+
+.header .links {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  gap: 24px;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero {
+  margin: 50px 0;
+  justify-content: space-evenly;
+}
+
+.hero .text,
+.hero .image {
+  height: 200px;
+  width: 400px;
+}
+
+.hero .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hero .text h1,
+.hero .text p {
+  margin: 0;
+}
+
+.hero .text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero .buttons {
+  margin: 10px 0;
+}
+
+.hero .buttons button {
+  background-color: #3882F6;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+}
+
+.hero .image {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.informations h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.informations .container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.informations .card {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.informations .card .illustration {
+  height: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+}
+
+.informations .card .text {
+  color: #777;
+  text-align: center;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.container-quote {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.container-quote .text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.container-quote .text .quote {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.container-quote .text .signature {
+  color: #1F2937;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 0;
+  align-self: flex-end;
+}
+
+p.signature::before {
+  content: '-';
+}
+
+.container-invest {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.container-invest .card {
+  color: white;
+  background-color: #3882F6;
+  width: 500px;
+  display: flex;
+  align-self: center;
+  padding: 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .container-invest .text { */
+/*   display: flex; */
+/*   flex-direction: column; */
+/* } */
+
+.container-invest .text h3,
+.container-invest .text p {
+  margin: 0;
+}
+
+button.invest {
+  height: fit-content;
+  padding: 2px 24px;
+  background-color: #3882F6;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 24px;
+  justify-content: center;
+}
